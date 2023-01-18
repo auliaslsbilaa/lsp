@@ -15,21 +15,21 @@ export default function Layout({children}) {
         {/* {menu} */}
         <div className="menu">
             <b>
-                <a href="/home">Home</a>
+                <a href="/home">HOME</a>
                 {/* {user?.role == 'admin' ? ( */}
                     <>
-                    <a href="/guru/index">Guru</a>
-                    <a href="/jurusan/index">Jurusan</a>
-                    <a href="/kelas/index">Kelas</a>
-                    <a href="/siswa/index">Siswa</a>
-                    <a href="/mapel/index">Mapel</a>
-                    <a href="/mengajar/index">Mengajar</a>
+                    <a href="/guru/index">GURU</a>
+                    <a href="/jurusan/index">JURUSAN</a>
+                    <a href="/kelas/index">KELAS</a>
+                    <a href="/siswa/index">SISWA</a>
+                    <a href="/mapel/index">MAPEL</a>
+                    <a href="/mengajar/index">MENGAJAR</a>
                     </>
                 {/* ) : ( */}
-                    <a href="/nilai/index">Nilai</a>
+                    <a href="/nilai/index">NILAI</a>
                 
                 {/* )} */}
-                <a href="/logout">Logout</a>
+                <a href="/logout">LOGOUT</a>
                 
             </b>
         </div>

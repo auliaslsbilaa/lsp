@@ -2,7 +2,7 @@
 @section('content')
     <center>
         <b>
-            <h2>LIST DATA MAPEL</h2>
+            <h2>LIST DATA MATA PELAJARAN</h2>
             <a href="/mapel/create" class="button-primary">TAMBAH DATA</a>
             <table cellpadding="10">
                 <tr>

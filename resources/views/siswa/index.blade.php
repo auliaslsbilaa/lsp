@@ -18,11 +18,11 @@
                 @foreach($siswa as $s)
                 <tr>
                     <td>{{ $loop->iteration }}</td>
-                    <td>{{ $s->nip}}</td>
+                    <td>{{ $s->nis}}</td>
                     <td>{{ $s->nama_siswa}}</td>
                     <td>{{ $s->jk == 'L' ? 'Laki-laki' : 'Perempuan'}}</td>
                     <td>{{ $s->alamat}}</td>
-                    <td></td>
+                    <td>{{ $s->kelas->nama_kelas}}</td>
                     <td>{{ $s->password}}</td>
                     <td>
                         <a href="/siswa/edit/{{$s->id}}" class="button-warning">EDIT</a>
