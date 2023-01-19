@@ -112,6 +112,10 @@ class MengajarController extends Controller
     public function destroy(Mengajar $mengajar)
     {
         //
+        $nilai = Mengajar::where('mengajar_id', $mengajar->id);
+        if ($nilai) {
+            return back()->with('error', "Data mengajar masih dipakai di menu nilai");
+        }
         $mengajar->delete();
 
         return redirect('/mengajar/index')->with('success', 'Data mengajar berhasil dihapus');

@@ -8,7 +8,7 @@
                 <p class="text-success">{{ session('success') }}</p>
             @endif
             @if (session('error'))
-                <p class="text-danger">{{ session('success') }}</p>
+                <p class="text-danger">{{ session('error') }}</p>
             @endif
 
             <table cellpadding="10">
